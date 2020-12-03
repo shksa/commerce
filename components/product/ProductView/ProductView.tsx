@@ -9,9 +9,9 @@ import { Swatch, ProductSlider } from '@components/product'
 import { Button, Container } from '@components/ui'
 import { HTMLContent } from '@components/common'
 
-import usePrice from '@bigcommerce/storefront-data-hooks/use-price'
-import useAddItem from '@bigcommerce/storefront-data-hooks/cart/use-add-item'
-import type { ProductNode } from '@bigcommerce/storefront-data-hooks/api/operations/get-product'
+import { usePrice } from '@lib/hooks'
+import { useAddItem } from '@lib/hooks'
+import type { ProductNode } from '@lib/middlewareAPI'
 import {
   getCurrentVariant,
   getProductOptions,

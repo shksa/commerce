@@ -1,4 +1,4 @@
-import type { ProductNode } from '@bigcommerce/storefront-data-hooks/api/operations/get-product'
+import type { ProductNode } from '@lib/middlewareAPI'
 
 export type SelectedOptions = {
   size: string | null

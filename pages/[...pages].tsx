@@ -3,9 +3,9 @@ import type {
   GetStaticPropsContext,
   InferGetStaticPropsType,
 } from 'next'
-import { getConfig } from '@bigcommerce/storefront-data-hooks/api'
-import getPage from '@bigcommerce/storefront-data-hooks/api/operations/get-page'
-import getAllPages from '@bigcommerce/storefront-data-hooks/api/operations/get-all-pages'
+import { getConfig } from '@lib/middlewareAPI'
+import getPage from '@lib/middlewareAPIget-page'
+import { getAllPages } from '@lib/middlewareAPI'
 import getSlug from '@lib/get-slug'
 import { missingLocaleInPages } from '@lib/usage-warns'
 import { Layout, HTMLContent } from '@components/common'

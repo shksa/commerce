@@ -7,9 +7,9 @@ import { useUI } from '@components/ui/context'
 import { Navbar, Footer } from '@components/common'
 import { usePreventScroll } from '@react-aria/overlays'
 import { useAcceptCookies } from '@lib/hooks/useAcceptCookies'
-import { CommerceProvider } from '@bigcommerce/storefront-data-hooks'
+import { CommerceProvider } from '@lib/hooks'
 import { Sidebar, Button, Modal, LoadingDots } from '@components/ui'
-import type { Page } from '@bigcommerce/storefront-data-hooks/api/operations/get-all-pages'
+import type { Page } from '@lib/middlewareAPI'
 import { CartSidebarView } from '@components/cart'
 
 const Loading = () => (
