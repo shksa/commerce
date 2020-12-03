@@ -1,5 +1,5 @@
 import { GetAllProductsResult, GetAllPagesResult, GetSiteInfoResult, GetProductResult, GetAllProductPathsResult, GetPageResult } from "./types"
-
+// All these fns are called in getStaticProps
 export async function getAllProducts(_:any): Promise<GetAllProductsResult> {
   return Promise.resolve({products: []})
 }
