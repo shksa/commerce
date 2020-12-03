@@ -9,7 +9,7 @@ import { usePreventScroll } from '@react-aria/overlays'
 import { useAcceptCookies } from '@lib/hooks/useAcceptCookies'
 import { CommerceProvider } from '@lib/hooks'
 import { Sidebar, Button, Modal, LoadingDots } from '@components/ui'
-import type { Page } from '@lib/middlewareAPI'
+import type { Page } from '@lib/middlewareAPI/types'
 import { CartSidebarView } from '@components/cart'
 
 const Loading = () => (

@@ -1,6 +1,6 @@
 import React, { FC, useState } from 'react'
 import cn from 'classnames'
-import type { ProductNode } from '@lib/middlewareAPI'
+import type { ProductNode } from '@lib/middlewareAPI/types'
 import { useAddItem, useWishlistAddItem } from '@lib/hooks'
 import { useRemoveItem } from '@lib/hooks'
 import { useWishlist } from '@lib/hooks'

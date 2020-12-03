@@ -1,7 +1,7 @@
 import type { FC } from 'react'
 import cn from 'classnames'
 import Link from 'next/link'
-import type { ProductNode } from '@lib/middlewareAPI'
+import type { ProductNode } from '@lib/middlewareAPI/types'
 import { usePrice } from '@lib/hooks'
 import Image from 'next/image'
 import s from './ProductCard.module.css'

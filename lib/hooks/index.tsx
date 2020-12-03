@@ -1,5 +1,5 @@
-import { Cart, WishlistItem, SearchProductsData } from "@lib/middlewareAPI"
-import { MutableRefObject, ReactNode, createContext, useRef, useMemo } from "react"
+import type { Cart, WishlistItem, SearchProductsData } from "@lib/middlewareAPI/types"
+import { createContext, useRef, useMemo } from "react"
 
 export function useCustomer() {
   return {data: {
