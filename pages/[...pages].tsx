@@ -4,7 +4,7 @@ import type {
   InferGetStaticPropsType,
 } from 'next'
 import { getConfig } from '@lib/middlewareAPI'
-import getPage from '@lib/middlewareAPIget-page'
+import { getPage } from '@lib/middlewareAPI'
 import { getAllPages } from '@lib/middlewareAPI'
 import getSlug from '@lib/get-slug'
 import { missingLocaleInPages } from '@lib/usage-warns'

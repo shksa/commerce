@@ -16,7 +16,7 @@ export type Page = definitions['page_Full']
 export type GetAllPagesResult<
   T extends { pages: any[] } = { pages: Page[] }
 > = T
-export function getAllPages(_:any): Promise<GetAllPagesResult> {
+export function getAllPages(_?:any): Promise<GetAllPagesResult> {
   return Promise.resolve({pages: []})
 }
 
@@ -87,4 +87,10 @@ export type Cart = {
 export type SearchProductsData = {
   products: ProductEdge[]
   found: boolean
+}
+
+export type GetPageResult<T extends { page?: any } = { page?: Page }> = T
+
+export function getPage(_:any): Promise<GetPageResult> {
+  return Promise.resolve({})
 }
