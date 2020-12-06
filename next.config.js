@@ -5,6 +5,7 @@ const bundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 module.exports = bundleAnalyzer({
+  distDir: 'build',
   images: {
     domains: ['cdn11.bigcommerce.com'],
   },

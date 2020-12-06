@@ -1,4 +1,4 @@
-import type { ProductNode } from '@lib/middlewareAPI'
+import type { ProductNode } from '@lib/middlewareAPI/types'
 
 export type SelectedOptions = {
   size: string | null

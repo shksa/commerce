@@ -11,7 +11,7 @@ import { HTMLContent } from '@components/common'
 
 import { usePrice } from '@lib/hooks'
 import { useAddItem } from '@lib/hooks'
-import type { ProductNode } from '@lib/middlewareAPI'
+import type { ProductNode } from '@lib/middlewareAPI/types'
 import {
   getCurrentVariant,
   getProductOptions,
